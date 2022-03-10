@@ -1,0 +1,23 @@
+.features {
+	flex: 2.5;
+	padding: 15px;
+	display: flow-root;
+
+	.feature-chart {
+		width: 170px;
+		height: 170px;
+		margin-top: 10px;
+		margin-bottom: 15px;
+	}
+
+	.nested-progress {
+		width: 100%;
+
+		div {
+			flex: 1;
+			margin-top: 8px;
+			margin: 5px;
+			padding: 5px;
+		}
+	}
+}
