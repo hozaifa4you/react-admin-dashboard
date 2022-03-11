@@ -44,6 +44,10 @@ const Sidebar = () => {
 	const goHome = () => {
 		navigator("/");
 	};
+	// navigate to users
+	const goUsers = () => {
+		navigator("/users");
+	};
 
 	return (
 		<div className='sidebar'>
@@ -71,7 +75,7 @@ const Sidebar = () => {
 						Lists
 					</Typography>
 					{/* users */}
-					<ListItemButton>
+					<ListItemButton onClick={goUsers}>
 						<ListItemIcon>
 							<Person color='primary' />
 						</ListItemIcon>
